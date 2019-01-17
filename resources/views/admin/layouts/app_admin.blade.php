@@ -40,6 +40,7 @@
                         <li><a href="#" class="dropdown-item navbar-brand">Another action</a></li>
                     </ul>
                 </div>
+
                 {{--<ul class="navbar-nav mr-auto">--}}
 
                 {{--</ul>--}}

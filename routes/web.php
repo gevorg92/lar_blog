@@ -12,7 +12,9 @@
 */
 Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware'=>['auth']], function() {
     Route::get('/', 'DashboardController@dashboard')->name('admin.index');
+    Route::get('/example', 'ExampleController@example')->name('example.example');
 });
+
 Route::get('/', function () {
     return view('welcome');
 });
